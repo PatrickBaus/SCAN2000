@@ -15,6 +15,8 @@ The design is based on the SCAN2000 pcb made by [George Christidis](https://gith
 
 ![Keithley SCAN2000 board photo](images/pcb_photo.JPG)
 
+The source code and installation instructions can be found [here](https://github.com/PatrickBaus/SCAN2000_Firmware).
+
 Related Repositories
 --------------------
 
