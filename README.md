@@ -13,6 +13,7 @@ Description
 -------------------
 The design is based on the SCAN2000 pcb made by [George Christidis](https://github.com/macgeorge/SCAN2000STM32). It also uses an STM32G0, but the pcb design is done in [KiCAD 6](https://www.kicad.org/) and corrects several problems like incorrect dimensions of the original design and replaces hard to obtain parts like the resistor arrays. The card was tested in a Keithley DMM6500 and a Keithley Model 2002.
 
+A photo of a version 1.0.0 board. Note: Later revisions have a pin header instead of the Picoblade connector for programming.
 ![Keithley SCAN2000 board photo](images/pcb_photo.JPG)
 
 Flashing the MCU
