@@ -2632,7 +2632,7 @@
       (reference "J1") (unit 1) (value "Conn_02x16_Row_Letter_First") (footprint "Connector_DIN:DIN41612_B2_2x16_Male_Horizontal_THT")
     )
     (path "/00000000-0000-0000-0000-0000619ffb3c/00000000-0000-0000-0000-000061a08cf2"
-      (reference "J2") (unit 1) (value "Conn_01x06") (footprint "Connector_Molex:Molex_PicoBlade_53047-0610_1x06_P1.25mm_Vertical")
+      (reference "J2") (unit 1) (value "Conn_01x05") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-0000619ffb3c/00000000-0000-0000-0000-000061a82373"
       (reference "J3") (unit 1) (value "Conn_01x02") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")

@@ -1,4 +1,4 @@
 (sym_lib_table
-  (lib (name "Custom_logos")(type "Legacy")(uri "${KIPRJMOD}/libraries/Custom_logos.lib")(options "")(descr ""))
-  (lib (name "MCU_ST_STM32G0")(type "Legacy")(uri "${KIPRJMOD}/libraries/MCU_ST_STM32G0.lib")(options "")(descr ""))
+  (lib (name "Custom_logos")(type "KiCad")(uri "${KIPRJMOD}/libraries/Custom_logos.kicad_sym")(options "")(descr ""))
+  (lib (name "MCU_ST_STM32G0")(type "KiCad")(uri "${KIPRJMOD}/libraries/MCU_ST_STM32G0.kicad_sym")(options "")(descr ""))
 )

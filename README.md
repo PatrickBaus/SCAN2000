@@ -15,7 +15,9 @@ The design is based on the SCAN2000 pcb made by [George Christidis](https://gith
 
 ![Keithley SCAN2000 board photo](images/pcb_photo.JPG)
 
-The source code and installation instructions can be found [here](https://github.com/PatrickBaus/SCAN2000_Firmware).
+Flashing the MCU
+-------------------
+The source code and installation instructions can be found [here](https://github.com/PatrickBaus/SCAN2000_Firmware). You will need a ST-Link adapter to flash the MCU.
 
 Related Repositories
 --------------------
@@ -30,5 +32,4 @@ KiCAD schematic libraries: https://github.com/PatrickBaus/KiCad-libraries
 
 License
 -------
-This work is released under the Cern OHL v.1.2
-See www.ohwr.org/licenses/cern-ohl/v1.2 or the included LICENSE file for more information.
+This work is released under the Cern OHL v.1.2 - see www.ohwr.org/licenses/cern-ohl/v1.2 or the included [LICENSE](LICENSE) file for more information.
