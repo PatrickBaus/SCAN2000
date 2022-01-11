@@ -1,0 +1,25 @@
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.~*
+
+# KiCAD Files #
+###############
+*.kicad_pcb-bak
+*.sch-bak
+*.bak
+*.xml
+_autosave-*
+*-cache.lib
+fp-info-cache
+footprints_project_specific.3dshapes
+
+# KiCAD 6 Files #
+*-backups
+*.kicad_prl
