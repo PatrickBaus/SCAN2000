@@ -5,6 +5,14 @@ This repository contains the KiCAD PCB project files for a Keithley SCAN2000 rep
 
 ![Keithley SCAN2000 board](images/pcb.png)
 
+|DMM|Tested|Note|
+|--|--|--|
+|[DMM6500](https://www.tek.com/en/products/keithley/digital-multimeter/dmm6500)|:heavy_check_mark:||
+|2000|:x:|Not tested, but should work|
+|2000-20|:x:|Not tested, but should work|
+|[2001](https://www.tek.com/en/products/keithley/digital-multimeter/2001-series)|:x:|Not tested, but should work|
+|[2002](https://www.tek.com/en/products/keithley/digital-multimeter/2002-series)|:heavy_check_mark:|Only 10 channels supported, even when ID is set to SCAN-2000-20|
+
 About
 -----
 The root folder contains the KiCAD files. The bill of materials can be found in the [/bom](bom/) folder, while the gerber files can be found in the [/gerber](gerber/) folder.

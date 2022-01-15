@@ -382,8 +382,6 @@
         "nets": [
           "/Relays/Input pins/Bus_HIGH",
           "/Relays/Input pins/Bus_LOW",
-          "/Relays/Input pins/In_HIGH",
-          "/Relays/Input pins/In_LOW",
           "/Relays/Input/Sense pins/Sense_HIGH",
           "/Relays/Input/Sense pins/Sense_LOW"
         ],

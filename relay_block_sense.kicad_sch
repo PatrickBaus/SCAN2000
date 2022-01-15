@@ -1423,6 +1423,10 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid b5d84bc0-4d9a-4d1d-a476-5c6b51309fca)
   )
+  (text "OUT B in the manual" (at 55.88 25.4 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid f3d9d747-c6a0-4bc0-8df6-828356edcd70)
+  )
 
   (label "Sense_HIGH" (at 43.18 24.13 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
