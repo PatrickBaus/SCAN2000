@@ -129,6 +129,12 @@
     (uuid f3044f68-903d-4063-b253-30d8e3a83eae)
   )
 
+  (text "A note on the Relays:\nWith SSRs, there is always a compromise between on-state resistance and leakage current.\nThis project is aimed to replace the majority of use cases of a replay card.\n- The K2002 manual states the following requirements for the OHMS range:\n   The lead resistance on the 20 Ω range must be < 10 Ω on the LO side.\n- The DMM6500 says \"5 Ω per lead for 1 Ω range\".\n\nThe relays used have a maximum on-state resistance of 2 Ω. Well below that requirement.\nThey are also rated for 700 mA and 200 V.\nThe downside is the leakage current of < 1 µA. The typical value is 40 nA, but there is no guarantee.\n\nThe original 2000-SCAN card is rated for 110V, 1A, < 1 Ω contact resistance and\na maximum contact potential of 1 µV, so this replacement is very close to the original 2000-SCAN card."
+    (at 146.05 52.07 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 46ea7e7b-c766-43ba-ae44-fb66cd25b71f)
+  )
+
   (hierarchical_label "CH2" (shape input) (at 76.2 43.18 180)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 03f57fb4-32a3-4bc6-85b9-fd8ece4a9592)
