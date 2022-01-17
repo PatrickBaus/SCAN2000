@@ -2881,7 +2881,7 @@
       (reference "U1") (unit 1) (value "TPS73233DBVR") (footprint "Package_TO_SOT_SMD:SOT-23-5")
     )
     (path "/00000000-0000-0000-0000-0000619ffb3c/00000000-0000-0000-0000-000061a068e2"
-      (reference "U3") (unit 1) (value "STM32G070xB") (footprint "Package_QFP:LQFP-32_7x7mm_P0.8mm")
+      (reference "U3") (unit 1) (value "STM32G070KBT6") (footprint "Package_QFP:LQFP-32_7x7mm_P0.8mm")
     )
     (path "/00000000-0000-0000-0000-000061fc209f/00000000-0000-0000-0000-000061fc3e67/00000000-0000-0000-0000-00006213e72f"
       (reference "U4") (unit 1) (value "TLP222A") (footprint "Package_DIP:DIP-4_W7.62mm")

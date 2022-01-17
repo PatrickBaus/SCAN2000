@@ -1199,7 +1199,7 @@
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061a068e2)
     (property "Reference" "U3" (id 0) (at 170.18 83.82 0))
-    (property "Value" "STM32G070xB" (id 1) (at 175.26 86.36 0))
+    (property "Value" "STM32G070KBT6" (id 1) (at 175.26 86.36 0))
     (property "Footprint" "Package_QFP:LQFP-32_7x7mm_P0.8mm" (id 2) (at 154.94 134.62 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
