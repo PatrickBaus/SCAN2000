@@ -1,0 +1,3 @@
+ D0 = CLK
+ D1 = Strobe
+ D2 = Data
