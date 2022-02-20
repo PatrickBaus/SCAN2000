@@ -5,14 +5,14 @@ This repository contains the KiCAD PCB project files for a Keithley SCAN2000 rep
 
 ![Keithley SCAN2000 board](images/pcb.png)
 
-|DMM|Tested|Note|
-|--|--|--|
-|[DMM6500](https://www.tek.com/en/products/keithley/digital-multimeter/dmm6500)|:heavy_check_mark:||
-|2000|:x:|Not tested, but should work. The latest firmware seems to support [20 channels](https://www.eevblog.com/forum/circuit-studio/example-project-20-channel-solid-state-scan-card-for-k2000-dmm/msg3101128/#msg3101128).|
-|2000-20|:x:|Not tested, but should work.|
-|[2010](https://www.tek.com/en/products/keithley/digital-multimeter/2010-series)|:x:|Not tested, but should work. [Only 10 channels supported.](https://www.eevblog.com/forum/projects/20-channel-diy-scanner-card-for-keithley-dmms-and-daqs/msg3514228/#msg3514228)|
-|[2001](https://www.tek.com/en/products/keithley/digital-multimeter/2001-series)|:x:|Not tested, but should work.|
-|[2002](https://www.tek.com/en/products/keithley/digital-multimeter/2002-series)|:heavy_check_mark:|Does not work. The serial clock is 2 MHz, which is too fast for the MCU.|
+|DMM|Tested|Works|Note|
+|--|--|--|--|
+|[DMM6500](https://www.tek.com/en/products/keithley/digital-multimeter/dmm6500)|:heavy_check_mark:|:heavy_check_mark:||
+|2000|:x:|:heavy_check_mark:|Not tested, but should work. The latest firmware seems to [support 20 channels](https://www.eevblog.com/forum/circuit-studio/example-project-20-channel-solid-state-scan-card-for-k2000-dmm/msg3101128/#msg3101128).|
+|2000-20|:x:|:heavy_check_mark:|Not tested, but should work.|
+|[2010](https://www.tek.com/en/products/keithley/digital-multimeter/2010-series)|:x:|:heavy_check_mark:|Not tested, but should work. [Only 10 channels supported.](https://www.eevblog.com/forum/projects/20-channel-diy-scanner-card-for-keithley-dmms-and-daqs/msg3514228/#msg3514228)|
+|[2001](https://www.tek.com/en/products/keithley/digital-multimeter/2001-series)|:x:|:x:|Not tested, but should be the same as the Model 2002.|
+|[2002](https://www.tek.com/en/products/keithley/digital-multimeter/2002-series)|:heavy_check_mark:|:x:|The serial clock of 2 MHz is too fast for the MCU.|
 
 About
 -----
