@@ -1,4 +1,4 @@
 (sym_lib_table
   (version 7)
-  (lib (name "MCU_ST_STM32G0")(type "KiCad")(uri "${KIPRJMOD}/libraries/MCU_ST_STM32G0.kicad_sym")(options "")(descr ""))
+  (lib (name "Custom_logos")(type "KiCad")(uri "${KIPRJMOD}/libraries/Custom_logos.kicad_sym")(options "")(descr ""))
 )
