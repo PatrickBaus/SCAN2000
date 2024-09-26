@@ -337,7 +337,7 @@
 		)
 		(path "/00000000-0000-0000-0000-0000629af83b")
 		(sheetname "Root")
-		(sheetfile "main.kicad_sch")
+		(sheetfile "SCAN2000.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
 		(fp_line
 			(start -8 6.93)
@@ -3466,7 +3466,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-0000619d5da5")
 		(sheetname "Root")
-		(sheetfile "main.kicad_sch")
+		(sheetfile "SCAN2000.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
@@ -4579,7 +4579,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/00000000-0000-0000-0000-000062844cb1")
 		(sheetname "Root")
-		(sheetfile "main.kicad_sch")
+		(sheetfile "SCAN2000.kicad_sch")
 		(attr through_hole dnp)
 		(fp_circle
 			(center 0 0)
@@ -10670,7 +10670,7 @@
 		(property ki_fp_filters "SolderJumper*Bridged12*")
 		(path "/00000000-0000-0000-0000-00006199f07b")
 		(sheetname "Root")
-		(sheetfile "main.kicad_sch")
+		(sheetfile "SCAN2000.kicad_sch")
 		(zone_connect 1)
 		(attr exclude_from_pos_files exclude_from_bom)
 		(net_tie_pad_groups "1, 2")
@@ -12855,7 +12855,7 @@
 				)
 			)
 		)
-		(property "MFN" "Nichicon"
+		(property "MFN" "Rubycon"
 			(at -50.292 132.588 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -12867,7 +12867,7 @@
 				)
 			)
 		)
-		(property "PN" "ULD2A100MED1TD"
+		(property "PN" "100YXM10MEFR6"
 			(at -50.292 132.588 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -12892,7 +12892,7 @@
 				)
 			)
 		)
-		(property "Temperature" "Tstorage = –25 °C to 105 °C"
+		(property "Temperature" "Tstorage = –40 °C to 105 °C"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12908,7 +12908,7 @@
 		(property ki_fp_filters "CP_*")
 		(path "/00000000-0000-0000-0000-0000619f742a")
 		(sheetname "Root")
-		(sheetfile "main.kicad_sch")
+		(sheetfile "SCAN2000.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 1.49 1.04)
@@ -15856,7 +15856,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/00000000-0000-0000-0000-000062844a45")
 		(sheetname "Root")
-		(sheetfile "main.kicad_sch")
+		(sheetfile "SCAN2000.kicad_sch")
 		(attr through_hole dnp)
 		(fp_circle
 			(center 0 0)
@@ -17418,7 +17418,7 @@
 		)
 		(path "/00000000-0000-0000-0000-0000620f1bdc")
 		(sheetname "Root")
-		(sheetfile "main.kicad_sch")
+		(sheetfile "SCAN2000.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_poly
 			(pts
@@ -18868,7 +18868,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-0000619cbbb1")
 		(sheetname "Root")
-		(sheetfile "main.kicad_sch")
+		(sheetfile "SCAN2000.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
@@ -23000,7 +23000,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-0000619b627e")
 		(sheetname "Root")
-		(sheetfile "main.kicad_sch")
+		(sheetfile "SCAN2000.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
@@ -24893,7 +24893,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-0000619c0fe9")
 		(sheetname "Root")
-		(sheetfile "main.kicad_sch")
+		(sheetfile "SCAN2000.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
@@ -26339,7 +26339,7 @@
 		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/00000000-0000-0000-0000-00006196f23e")
 		(sheetname "Root")
-		(sheetfile "main.kicad_sch")
+		(sheetfile "SCAN2000.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 46.26 -4.74)
@@ -31791,7 +31791,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/00000000-0000-0000-0000-000062831a42")
 		(sheetname "Root")
-		(sheetfile "main.kicad_sch")
+		(sheetfile "SCAN2000.kicad_sch")
 		(attr through_hole)
 		(fp_circle
 			(center 0 0)
@@ -33545,7 +33545,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-0000619c14cf")
 		(sheetname "Root")
-		(sheetfile "main.kicad_sch")
+		(sheetfile "SCAN2000.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
@@ -40553,7 +40553,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-0000619c63c3")
 		(sheetname "Root")
-		(sheetfile "main.kicad_sch")
+		(sheetfile "SCAN2000.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
@@ -42359,7 +42359,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/00000000-0000-0000-0000-00006284462f")
 		(sheetname "Root")
-		(sheetfile "main.kicad_sch")
+		(sheetfile "SCAN2000.kicad_sch")
 		(attr through_hole dnp)
 		(fp_circle
 			(center 0 0)
