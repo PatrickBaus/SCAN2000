@@ -8,18 +8,32 @@
 ehthumbs.db
 Thumbs.db
 .~*
+*.tmp
 
 # KiCAD Files #
 ###############
 *.kicad_pcb-bak
-*.sch-bak
+*.kicad_sch-bak
 *.bak
 *.xml
 _autosave-*
 *-cache.lib
+*.lck
 fp-info-cache
 footprints_project_specific.3dshapes
 
 # KiCAD 6 Files #
 *-backups
 *.kicad_prl
+
+# KiCAD 7 Files #
+\#auto_saved_files#
+
+# Automatically generated files #
+#################################
+gerber/*
+/*.csv
+/*.xlsx
+
+# Environments
+env/
