@@ -18,6 +18,13 @@ preflight:
   update_xml: true
   drc:
     ignore_unconnected: false
+    filters:
+      - filter: 'The relay courtyards overlap as the DIP-4 footprint is too large.'
+        error: courtyards_overlap
+        regex: 'Footprint U\d+'
+      - filter: 'The relay silkscreen overlap as the DIP-4 footprint is too large.'
+        error: silk_overlap
+        regex: 'Segment on F.Silkscreen'
 
 variants:
   - name: 'default'
