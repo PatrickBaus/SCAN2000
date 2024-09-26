@@ -7,7 +7,7 @@
 	(title_block
 		(title "Keithley 2000-SCAN-20 SSR")
 		(date "2024-09-26")
-		(rev "2.0.1")
+		(rev "2.0.2")
 		(comment 1 "Copyright (©) 2024, Patrick Baus <patrick.baus@physik.tu-darmstadt.de>")
 		(comment 2 "CERN-OHL-W")
 	)
@@ -7027,7 +7027,7 @@
 		(lib_id "Custom_logos:SYM_RoHS")
 		(at 254 170.18 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board no)
 		(dnp no)
@@ -7070,15 +7070,6 @@
 			)
 		)
 		(property "Description" "RoHS (Restriction of Hazardous Substances Directive) logo"
-			(at 254 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
 			(at 254 170.18 0)
 			(effects
 				(font
