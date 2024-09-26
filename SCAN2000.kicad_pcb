@@ -46030,7 +46030,7 @@
 		(layer "Edge.Cuts")
 		(uuid "00000000-0000-0000-0000-000061a0a6bc")
 	)
-	(gr_text "Keithley SCAN-2000-20 SSR v1.1.0\nDesign: Patrick Baus\nDate: 2022-01\nhttps://github.com/PatrickBaus"
+	(gr_text "Keithley SCAN-2000-20 SSR v1.1.1\nDesign: Patrick Baus\nDate: 2024-09\nhttps://github.com/PatrickBaus"
 		(at 223.266 61.76 0)
 		(layer "F.SilkS")
 		(uuid "00000000-0000-0000-0000-0000619fbed0")
