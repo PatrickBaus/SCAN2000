@@ -3628,7 +3628,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" " 69190-405HLF"
+		(property "PN" "69190-405HLF"
 			(at 240.03 40.64 0)
 			(effects
 				(font
