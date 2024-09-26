@@ -7,190 +7,36 @@
 	(title_block
 		(title "Keithley 2000-SCAN-20 SSR")
 		(date "2024-09-26")
-		(rev "1.1.1")
+		(rev "2.0.1")
 		(comment 1 "Copyright (©) 2024, Patrick Baus <patrick.baus@physik.tu-darmstadt.de>")
-		(comment 2 "Licensed under CERN OHL v.1.2")
+		(comment 2 "CERN-OHL-W")
 	)
 	(lib_symbols)
-	(wire
-		(pts
-			(xy 91.44 63.5) (xy 76.2 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "05f2859d-2820-4e84-b395-696011feb13b")
+	(junction
+		(at 78.74 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8f02fa76-13fe-4a1b-b6a6-99a8b4ac6a17")
 	)
-	(wire
+	(bus
 		(pts
-			(xy 87.63 71.12) (xy 87.63 123.19)
+			(xy 85.09 124.46) (xy 85.09 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "269f19c3-6824-45a8-be29-fa58d70cbb42")
+		(uuid "024ec7ef-e1a0-4681-a6fc-da6707846b4e")
 	)
-	(wire
+	(bus
 		(pts
-			(xy 91.44 58.42) (xy 76.2 58.42)
+			(xy 78.74 40.64) (xy 91.44 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2a1de22d-6451-488d-af77-0bf8841bd695")
-	)
-	(wire
-		(pts
-			(xy 91.44 97.79) (xy 76.2 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c60448a-e30f-46b2-89e1-a44f51688efc")
-	)
-	(wire
-		(pts
-			(xy 91.44 87.63) (xy 76.2 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e0a9f64-1b78-4597-8d50-d12d2268a95a")
-	)
-	(wire
-		(pts
-			(xy 91.44 71.12) (xy 87.63 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "38cfe839-c630-43d3-a9ec-6a89ba9e318a")
-	)
-	(wire
-		(pts
-			(xy 91.44 92.71) (xy 76.2 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b1fce17-dec7-457e-ba3b-a77604e77dc9")
-	)
-	(wire
-		(pts
-			(xy 91.44 110.49) (xy 76.2 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "576f00e6-a1be-45d3-9b93-e26d9e0fe306")
-	)
-	(wire
-		(pts
-			(xy 85.09 120.65) (xy 91.44 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5889287d-b845-4684-b23e-663811b25d27")
-	)
-	(wire
-		(pts
-			(xy 91.44 53.34) (xy 76.2 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ac3ab53-7523-4805-bfd2-5de19dff127e")
-	)
-	(wire
-		(pts
-			(xy 91.44 113.03) (xy 76.2 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "713e0777-58b2-4487-baca-60d0ebed27c3")
-	)
-	(wire
-		(pts
-			(xy 91.44 43.18) (xy 76.2 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "844d7d7a-b386-45a8-aaf6-bf41bbcb43b5")
-	)
-	(wire
-		(pts
-			(xy 91.44 100.33) (xy 76.2 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "901440f4-e2a6-4447-83cc-f58a2b26f5c4")
-	)
-	(wire
-		(pts
-			(xy 85.09 68.58) (xy 85.09 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9aaeec6e-84fe-4644-b0bc-5de24626ff48")
-	)
-	(wire
-		(pts
-			(xy 91.44 48.26) (xy 76.2 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a07b6b2b-7179-4297-b163-5e47ffbe76d3")
-	)
-	(wire
-		(pts
-			(xy 91.44 105.41) (xy 76.2 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0dee8e6-f88a-4f05-aba0-bab3aafdf2bc")
-	)
-	(wire
-		(pts
-			(xy 91.44 40.64) (xy 76.2 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a62609cd-29b7-4918-b97d-7b2404ba61cf")
-	)
-	(wire
-		(pts
-			(xy 91.44 55.88) (xy 76.2 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a8219a78-6b33-4efa-a789-6a67ce8f7a50")
+		(uuid "09466e4d-87a2-43b0-a3d1-269354a77b9d")
 	)
 	(wire
 		(pts
@@ -200,27 +46,47 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "a8fb8ee0-623f-4870-a716-ecc88f37ef9a")
+		(uuid "2e0a9f64-1b78-4597-8d50-d12d2268a95a")
 	)
-	(wire
+	(bus
 		(pts
-			(xy 91.44 68.58) (xy 85.09 68.58)
+			(xy 91.44 124.46) (xy 85.09 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "be4b72db-0e02-4d9b-844a-aff689b4e648")
+		(uuid "37c1d314-fc30-418c-81e5-45cf5156f0cb")
 	)
-	(wire
+	(bus
 		(pts
-			(xy 91.44 50.8) (xy 76.2 50.8)
+			(xy 78.74 40.64) (xy 78.74 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d1a9be32-38ba-44e6-bc35-f031541ab1fe")
+		(uuid "3878f21a-4161-4670-ba42-c8aea04597f9")
+	)
+	(bus
+		(pts
+			(xy 85.09 66.04) (xy 91.44 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52b7f76e-eef1-4647-b446-804dffe90960")
+	)
+	(bus
+		(pts
+			(xy 78.74 120.65) (xy 91.44 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86e3c744-53cc-4626-8d36-2f131dc3cfa5")
 	)
 	(wire
 		(pts
@@ -232,69 +98,19 @@
 		)
 		(uuid "d3e133b7-2c84-4206-a2b1-e693cb57fe56")
 	)
-	(wire
+	(bus
 		(pts
-			(xy 91.44 95.25) (xy 76.2 95.25)
+			(xy 76.2 40.64) (xy 78.74 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d66d3c12-11ce-4566-9a45-962e329503d8")
+		(uuid "e990e710-fb52-4877-8a1b-b96bb6f95d8a")
 	)
-	(wire
-		(pts
-			(xy 91.44 102.87) (xy 76.2 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d7e5a060-eb57-4238-9312-26bc885fc97d")
-	)
-	(wire
-		(pts
-			(xy 87.63 123.19) (xy 91.44 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "da481376-0e49-44d3-91b8-aaa39b869dd1")
-	)
-	(wire
-		(pts
-			(xy 91.44 45.72) (xy 76.2 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ebca7c5e-ae52-43e5-ac6c-69a96a9a5b24")
-	)
-	(wire
-		(pts
-			(xy 91.44 107.95) (xy 76.2 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f19c9655-8ddb-411a-96dd-bd986870c3c6")
-	)
-	(wire
-		(pts
-			(xy 91.44 60.96) (xy 76.2 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f3044f68-903d-4063-b253-30d8e3a83eae")
-	)
-	(text "A note on the Relays:\nWith SSRs, there is always a compromise between on-state resistance and leakage current.\nThis project is aimed to replace the majority of use cases of a replay card.\n- The K2002 manual states the following requirements for the OHMS range:\n   The lead resistance on the 20 Ω range must be < 10 Ω on the LO side.\n- The DMM6500 says \"5 Ω per lead for 1 Ω range\".\n\nThe relays used have a maximum on-state resistance of 2 Ω. Well below that requirement.\nThey are also rated for 700 mA and 200 V.\nThe downside is the leakage current of < 1 µA. The typical value is 40 nA, but there is no guarantee.\n\nThe original 2000-SCAN card is rated for 110V, 1A, < 1 Ω contact resistance and\na maximum contact potential of 1 µV, so this replacement is very close to the original 2000-SCAN card."
+	(text "A note on the Relays:\nWith SSRs, there is always a compromise between on-state resistance and leakage current.\nThis project is aimed to replace the majority of use cases of a replay card.\n- The K2002 manual states the following requirements for the OHMS range:\n   The lead resistance on the 20 Ω range must be < 10 Ω on the LO side.\n- The DMM6500 says \"5 Ω per lead for 1 Ω range\".\n\nThe relays used have a maximum on-state resistance of 2 Ω. Well below that requirement.\nThey are also rated for 700 mA and 200 V.\nThe downside is the leakage current of < 1 µA. The typical value is 40 nA, but there is no guarantee.\n\nThe original 2000-SCAN card is rated for 110V, 1A, < 1 Ω contact resistance and\na maximum contact potential of 1 µV, so this replacement is very close to the original 2000-SCAN card.\n\nNote: The 2000-SCAN-20 is rated for 60V and 0.5 A only. The reason is the Dsub HD44 connector, which is\ntypically rated for 60 V working voltage. See for example Conec 164A18279X (https://conec.com/catalog/en/2395.html).\n\nTherefore Screw Terminals are used for the 20 channel version as well."
 		(exclude_from_sim no)
-		(at 146.05 52.07 0)
+		(at 156.845 55.245 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -303,163 +119,7 @@
 		)
 		(uuid "46ea7e7b-c766-43ba-ae44-fb66cd25b71f")
 	)
-	(hierarchical_label "CH2"
-		(shape input)
-		(at 76.2 43.18 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "03f57fb4-32a3-4bc6-85b9-fd8ece4a9592")
-	)
-	(hierarchical_label "CH10"
-		(shape input)
-		(at 76.2 63.5 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "07d160b6-23e1-4aa0-95cb-440482e6fc15")
-	)
-	(hierarchical_label "CH9"
-		(shape input)
-		(at 76.2 60.96 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1e48966e-d29d-4521-8939-ec8ac570431d")
-	)
-	(hierarchical_label "CH6"
-		(shape input)
-		(at 76.2 53.34 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "24b72b0d-63b8-4e06-89d0-e94dcf39a600")
-	)
-	(hierarchical_label "CH16"
-		(shape input)
-		(at 76.2 105.41 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "25bc3602-3fb4-4a04-94e3-21ba22562c24")
-	)
-	(hierarchical_label "CH13"
-		(shape input)
-		(at 76.2 97.79 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "283c990c-ae5a-4e41-a3ad-b40ca29fe90e")
-	)
-	(hierarchical_label "CH5"
-		(shape input)
-		(at 76.2 50.8 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4431c0f6-83ea-4eee-95a8-991da2f03ccd")
-	)
-	(hierarchical_label "CH12"
-		(shape input)
-		(at 76.2 95.25 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "49575217-40b0-4890-8acf-12982cca52b5")
-	)
-	(hierarchical_label "CH18"
-		(shape input)
-		(at 76.2 110.49 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4a54c707-7b6f-4a3d-a74d-5e3526114aba")
-	)
-	(hierarchical_label "CH17"
-		(shape input)
-		(at 76.2 107.95 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4aa97874-2fd2-414c-b381-9420384c2fd8")
-	)
-	(hierarchical_label "CH11"
-		(shape input)
-		(at 76.2 92.71 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4cafb73d-1ad8-4d24-acf7-63d78095ae46")
-	)
 	(hierarchical_label "Bus2_sense_enable"
-		(shape input)
-		(at 76.2 87.63 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "582622a2-fad4-4737-9a80-be9fffbba8ab")
-	)
-	(hierarchical_label "CH15"
-		(shape input)
-		(at 76.2 102.87 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7760a75a-d74b-4185-b34e-cbc7b2c339b6")
-	)
-	(hierarchical_label "CH20"
 		(shape input)
 		(at 76.2 115.57 180)
 		(fields_autoplaced yes)
@@ -469,79 +129,7 @@
 			)
 			(justify right)
 		)
-		(uuid "869d6302-ae22-478f-9723-3feacbb12eef")
-	)
-	(hierarchical_label "CH4"
-		(shape input)
-		(at 76.2 48.26 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "90e761f6-1432-4f73-ad28-fa8869b7ec31")
-	)
-	(hierarchical_label "CH7"
-		(shape input)
-		(at 76.2 55.88 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a6738794-75ae-48a6-8949-ed8717400d71")
-	)
-	(hierarchical_label "CH3"
-		(shape input)
-		(at 76.2 45.72 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b78cb2c1-ae4b-4d9b-acd8-d7fe342342f2")
-	)
-	(hierarchical_label "CH14"
-		(shape input)
-		(at 76.2 100.33 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c1bac86f-cbf6-4c5b-b60d-c26fa73d9c09")
-	)
-	(hierarchical_label "CH8"
-		(shape input)
-		(at 76.2 58.42 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d692b5e6-71b2-4fa6-bc83-618add8d8fef")
-	)
-	(hierarchical_label "CH19"
-		(shape input)
-		(at 76.2 113.03 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e1b88aa4-d887-4eea-83ff-5c009f4390c4")
+		(uuid "582622a2-fad4-4737-9a80-be9fffbba8ab")
 	)
 	(hierarchical_label "Bus2_input_enable"
 		(shape input)
@@ -555,7 +143,7 @@
 		)
 		(uuid "f988d6ea-11c5-4837-b1d1-5c292ded50c6")
 	)
-	(hierarchical_label "CH1"
+	(hierarchical_label "CH[1..20]"
 		(shape input)
 		(at 76.2 40.64 180)
 		(fields_autoplaced yes)
@@ -569,7 +157,7 @@
 	)
 	(sheet
 		(at 91.44 33.02)
-		(size 21.59 40.64)
+		(size 31.75 40.64)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0)
@@ -597,106 +185,6 @@
 				(justify left top)
 			)
 		)
-		(pin "CH1" input
-			(at 91.44 40.64 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "a90361cd-254c-4d27-ae1f-9a6c85bafe28")
-		)
-		(pin "CH2" input
-			(at 91.44 43.18 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "84d296ba-3d39-4264-ad19-947f90c54396")
-		)
-		(pin "CH3" input
-			(at 91.44 45.72 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "6afc19cf-38b4-47a3-bc2b-445b18724310")
-		)
-		(pin "CH4" input
-			(at 91.44 48.26 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "fe14c012-3d58-4e5e-9a37-4b9765a7f764")
-		)
-		(pin "CH5" input
-			(at 91.44 50.8 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "d01102e9-b170-4eb1-a0a4-9a31feb850b7")
-		)
-		(pin "CH6" input
-			(at 91.44 53.34 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "c8a7af6e-c432-4fa3-91ee-c8bf0c5a9ebe")
-		)
-		(pin "CH7" input
-			(at 91.44 55.88 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "91fe070a-a49b-4bc5-805a-42f23e10d114")
-		)
-		(pin "CH8" input
-			(at 91.44 58.42 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "501880c3-8633-456f-9add-0e8fa1932ba6")
-		)
-		(pin "CH9" input
-			(at 91.44 60.96 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "c454102f-dc92-4550-9492-797fc8e6b49c")
-		)
-		(pin "CH10" input
-			(at 91.44 63.5 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "7a879184-fad8-4feb-afb5-86fe8d34f1f7")
-		)
 		(pin "Bus_enable" input
 			(at 91.44 35.56 180)
 			(effects
@@ -707,25 +195,25 @@
 			)
 			(uuid "528fd7da-c9a6-40ae-9f1a-60f6a7f4d534")
 		)
-		(pin "Bus_LOW" passive
-			(at 91.44 71.12 180)
+		(pin "CH[1..20]" input
+			(at 91.44 40.64 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "e413cfad-d7bd-41ab-b8dd-4b67484671a6")
+			(uuid "82f19b8a-b9ce-4db1-a414-6e20744a0931")
 		)
-		(pin "Bus_HIGH" passive
-			(at 91.44 68.58 180)
+		(pin "BUS{HI,LO}" input
+			(at 91.44 66.04 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "18ca5aef-6a2c-41ac-9e7f-bf7acb716e53")
+			(uuid "f50df3d0-441a-4bfd-a3c7-abd28e8f412f")
 		)
 		(instances
 			(project "SCAN2000"
@@ -736,7 +224,7 @@
 		)
 	)
 	(sheet
-		(at 91.44 85.09)
+		(at 91.44 113.03)
 		(size 21.59 40.64)
 		(fields_autoplaced yes)
 		(stroke
@@ -748,7 +236,7 @@
 		)
 		(uuid "00000000-0000-0000-0000-0000621a92ce")
 		(property "Sheetname" "Input/Sense pins"
-			(at 91.44 84.3784 0)
+			(at 91.44 112.3184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -757,7 +245,7 @@
 			)
 		)
 		(property "Sheetfile" "relay_block_sense.kicad_sch"
-			(at 91.44 126.3146 0)
+			(at 91.44 154.2546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -765,108 +253,8 @@
 				(justify left top)
 			)
 		)
-		(pin "CH1" input
-			(at 91.44 92.71 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "fdc60c06-30fa-4dfb-96b4-809b755999e1")
-		)
-		(pin "CH2" input
-			(at 91.44 95.25 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "f0ff5d1c-5481-4958-b844-4f68a17d4166")
-		)
-		(pin "CH3" input
-			(at 91.44 97.79 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "96db52e2-6336-4f5e-846e-528c594d0509")
-		)
-		(pin "CH4" input
-			(at 91.44 100.33 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "59fc765e-1357-4c94-9529-5635418c7d73")
-		)
-		(pin "CH5" input
-			(at 91.44 102.87 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "89a8e170-a222-41c0-b545-c9f4c5604011")
-		)
-		(pin "CH6" input
-			(at 91.44 105.41 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "9529c01f-e1cd-40be-b7f0-83780a544249")
-		)
-		(pin "CH7" input
-			(at 91.44 107.95 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "d68e5ddb-039c-483f-88a3-1b0b7964b482")
-		)
-		(pin "CH8" input
-			(at 91.44 110.49 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "6f580eb1-88cc-489d-a7ca-9efa5e590715")
-		)
-		(pin "CH9" input
-			(at 91.44 113.03 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "b13e8448-bf35-4ec0-9c70-3f2250718cc2")
-		)
-		(pin "CH10" input
-			(at 91.44 115.57 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "5c7d6eaf-f256-4349-8203-d2e836872231")
-		)
 		(pin "Bus_enable" input
-			(at 91.44 87.63 180)
+			(at 91.44 115.57 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -875,17 +263,7 @@
 			)
 			(uuid "dde8619c-5a8c-40eb-9845-65e6a654222d")
 		)
-		(pin "Bus_LOW" passive
-			(at 91.44 123.19 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "c7df8431-dcf5-4ab4-b8f8-21c1cafc5246")
-		)
-		(pin "Bus_HIGH" passive
+		(pin "CH[1..20]" input
 			(at 91.44 120.65 180)
 			(effects
 				(font
@@ -893,7 +271,17 @@
 				)
 				(justify left)
 			)
-			(uuid "d38aa458-d7c4-47af-ba08-2b6be506a3fd")
+			(uuid "5efb7be5-abe3-49fb-b43e-3889ae5764e5")
+		)
+		(pin "BUS{HI,LO}" output
+			(at 91.44 124.46 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "054f9e07-1181-42b4-93ce-05ffd53a0051")
 		)
 		(instances
 			(project "SCAN2000"
