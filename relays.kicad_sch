@@ -728,7 +728,7 @@
 			(uuid "18ca5aef-6a2c-41ac-9e7f-bf7acb716e53")
 		)
 		(instances
-			(project "main"
+			(project "SCAN2000"
 				(path "/29195ea4-8218-44a1-b4bf-466bee0082e4/00000000-0000-0000-0000-000061fc209f"
 					(page "2")
 				)
@@ -896,7 +896,7 @@
 			(uuid "d38aa458-d7c4-47af-ba08-2b6be506a3fd")
 		)
 		(instances
-			(project "main"
+			(project "SCAN2000"
 				(path "/29195ea4-8218-44a1-b4bf-466bee0082e4/00000000-0000-0000-0000-000061fc209f"
 					(page "3")
 				)

@@ -6365,7 +6365,7 @@
 			(uuid "d3d57924-54a6-421d-a3a0-a044fc909e88")
 		)
 		(instances
-			(project "main"
+			(project "SCAN2000"
 				(path "/29195ea4-8218-44a1-b4bf-466bee0082e4"
 					(page "4")
 				)
@@ -6623,7 +6623,7 @@
 			(uuid "c3b3d7f4-943f-4cff-b180-87ef3e1bcbff")
 		)
 		(instances
-			(project "main"
+			(project "SCAN2000"
 				(path "/29195ea4-8218-44a1-b4bf-466bee0082e4"
 					(page "5")
 				)
