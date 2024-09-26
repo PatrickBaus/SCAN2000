@@ -508,7 +508,7 @@
 		(path "/00000000-0000-0000-0000-0000619ffb3c/00000000-0000-0000-0000-000061a944a7")
 		(sheetname "FPGA")
 		(sheetfile "fpga.kicad_sch")
-		(attr through_hole)
+		(attr through_hole dnp)
 		(fp_circle
 			(center 0 0)
 			(end 1.7 0)
@@ -10214,7 +10214,7 @@
 		(path "/00000000-0000-0000-0000-00006199f07b")
 		(sheetname "Root")
 		(sheetfile "SCAN2000.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -2.05 -1)
 			(end 2.05 -1)
@@ -24782,6 +24782,19 @@
 				)
 			)
 		)
+		(property "Digikey#" "09272326804-ND"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3e1bf1c9-c932-429a-9589-1219b7fedda9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/00000000-0000-0000-0000-00006196f23e")
 		(sheetname "Root")
@@ -29786,7 +29799,7 @@
 		(path "/00000000-0000-0000-0000-000062831a42")
 		(sheetname "Root")
 		(sheetfile "SCAN2000.kicad_sch")
-		(attr through_hole)
+		(attr through_hole dnp)
 		(fp_circle
 			(center 0 0)
 			(end 1.7 0)
@@ -48929,11 +48942,24 @@
 				)
 			)
 		)
+		(property "DNP" "1"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d3d77f15-8a0b-4130-afe4-1e790806c6e9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "SolderJumper*Open*")
 		(path "/00000000-0000-0000-0000-0000619ffb3c/69fcb9ac-62f3-4661-ad24-f71c27c7f5a4")
 		(sheetname "FPGA")
 		(sheetfile "fpga.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -1.4 -1)
 			(end 1.4 -1)
