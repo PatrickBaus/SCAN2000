@@ -3,6 +3,8 @@
 
 This repository contains the KiCAD PCB project files for a Keithley SCAN2000 replacement card. It uses solid-state relays instead of mechanical relays. See [below](#introduction) for a list of compatible devices. The design files can be found on the [releases](../../releases) page.
 
+![Keithley SCAN2000 board](images/pcb.png)
+
 ## Contents
 - [Introduction](#introduction)
 - [Design Files](#design-files)
@@ -11,9 +13,9 @@ This repository contains the KiCAD PCB project files for a Keithley SCAN2000 rep
 - [Versioning](#versioning)
 - [License](#license)
 
-![Keithley SCAN2000 board](images/pcb.png)
-
 ## Introduction
+The design is based on the SCAN2000 pcb made by [George Christidis](https://github.com/macgeorge/SCAN2000STM32). It also uses an STM32G0, but the pcb design is done in [KiCAD 8](https://www.kicad.org/) and corrects several problems like incorrect dimensions of the original design and replaces hard to obtain parts like the resistor arrays. The card was tested in a [Keithley DMM6500](https://www.tek.com/en/products/keithley/digital-multimeter/dmm6500) and a [Keithley Model 2002](https://www.tek.com/en/products/keithley/digital-multimeter/2002-series). The latter model is **not** supported by the card, because the serial clock to communicate with the card is clocked at 2 MHz and shared with other devices. These other devices do not use an 8-bit aligned protocol. The bus must therefore be sampled by the MCU and it is too slow for that. The [Keithley Model 2010](https://www.tek.com/en/products/keithley/digital-multimeter/2010-series) and [Keithley Model 2001](https://www.tek.com/en/products/keithley/digital-multimeter/2001-series) were not tested, but they are similar to the [DMM6500](https://www.tek.com/en/products/keithley/digital-multimeter/dmm6500). Do report back if you have tested the card in such a model, so that I can tick those checkboxes.
+
 |DMM|Tested|Note|
 |--|--|--|
 |[DMM6500](https://www.tek.com/en/products/keithley/digital-multimeter/dmm6500)|:heavy_check_mark:||
@@ -23,14 +25,11 @@ This repository contains the KiCAD PCB project files for a Keithley SCAN2000 rep
 |[2001](https://www.tek.com/en/products/keithley/digital-multimeter/2001-series)|:x:|Not tested, but should work.|
 |[2002](https://www.tek.com/en/products/keithley/digital-multimeter/2002-series)|:heavy_check_mark:|Does not work. The serial clock is 2 MHz, which is too fast for the MCU.|
 
-## Design Files
-The root folder contains the KiCAD files. The bill of materials can be found on the [releases](../../releases) page along with Gerber files for production.
-
-## Description
-The design is based on the SCAN2000 pcb made by [George Christidis](https://github.com/macgeorge/SCAN2000STM32). It also uses an STM32G0, but the pcb design is done in [KiCAD 8](https://www.kicad.org/) and corrects several problems like incorrect dimensions of the original design and replaces hard to obtain parts like the resistor arrays. The card was tested in a Keithley DMM6500 and a Keithley Model 2002. The latter model is **not** supported by the card.
-
 A photo of a version 1.0.0 board. Note: Later revisions have a pin header instead of the Picoblade connector for programming and the MCU is rotated.
 ![Keithley SCAN2000 board photo](images/pcb_photo.JPG)
+
+## Design Files
+The root folder contains the KiCAD files. The bill of materials can be found on the [releases](../../releases) page along with Gerber files for production.
 
 ## Installation
 The source code and installation instructions can be found [here](https://github.com/PatrickBaus/SCAN2000_Firmware). You will need a ST-Link adapter to flash the MCU.
