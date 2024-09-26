@@ -4444,6 +4444,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey#" "09272326804-ND"
+			(at 46.99 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "a1"
 			(uuid "3bc50433-6dac-4788-ba5b-195d35349aea")
 		)
@@ -4880,7 +4889,7 @@
 		(at 71.12 27.94 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00006199f07b")
@@ -6114,7 +6123,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-000062831a42")
 		(property "Reference" "TP4"
 			(at 52.07 110.49 0)

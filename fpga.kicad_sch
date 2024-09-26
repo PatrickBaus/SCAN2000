@@ -9748,7 +9748,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-000061a944a7")
 		(property "Reference" "TP5"
 			(at 254 15.24 0)
@@ -13890,7 +13890,7 @@
 		(at 231.14 127 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -13930,6 +13930,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 231.14 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DNP" "1"
 			(at 231.14 127 0)
 			(effects
 				(font
