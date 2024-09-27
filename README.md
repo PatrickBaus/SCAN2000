@@ -1,7 +1,7 @@
 [![Build manufacturing files](https://github.com/PatrickBaus/SCAN2000/actions/workflows/ci.yml/badge.svg)](https://github.com/PatrickBaus/SCAN2000/actions/workflows/ci.yml)
 # Keithley SCAN2000 SSR Replacement
 
-This repository contains the KiCAD PCB project files for a Keithley SCAN2000 replacement card. It uses solid-state relays instead of mechanical relays. See [below](#introduction) for a list of compatible devices. The design files can be found on the [releases](../../releases) page.
+This repository contains the KiCAD PCB project files for a [Keithley Model 2000-SCAN](https://download.tek.com/manual/2000SCAN-901-01_F-Jan-2014.pdf) replacement card. It uses solid-state relays instead of mechanical relays. See [below](#introduction) for a list of compatible devices. The design files can be found on the [releases](../../releases) page.
 
 ![Keithley SCAN2000 board](images/pcb.png)
 
@@ -14,7 +14,7 @@ This repository contains the KiCAD PCB project files for a Keithley SCAN2000 rep
 - [License](#license)
 
 ## Introduction
-The design is based on the SCAN2000 pcb made by [George Christidis](https://github.com/macgeorge/SCAN2000STM32). It also uses an STM32G0, but the pcb design is done in [KiCAD 8](https://www.kicad.org/) and corrects several problems like incorrect dimensions of the original design and replaces hard to obtain parts like the resistor arrays. The advantage of solid state relays over conventional relays is the almost unlimited lifetime and immunitiy to wear.
+The design is based on the SCAN2000 PCB made by [George Christidis](https://github.com/macgeorge/SCAN2000STM32). It also uses an STM32G0, but the pcb design is done in [KiCAD 8](https://www.kicad.org/) and corrects several problems like incorrect dimensions of the original design and replaces hard to obtain parts like the resistor arrays. The advantage of solid state relays over conventional relays is the almost unlimited lifetime and immunitiy to wear.
 
 The card was tested in a [Keithley DMM6500](https://www.tek.com/en/products/keithley/digital-multimeter/dmm6500) and a [Keithley Model 2002](https://www.tek.com/en/products/keithley/digital-multimeter/2002-series). The latter model is **not** supported by the card, because the serial clock to communicate with the card is clocked at 2 MHz and shared with other devices. These other devices do not use an 8-bit aligned protocol. The bus must therefore be sampled by the MCU and it is too slow for that. For more details, see the [serial_protocol](serial_protocol) folder as it contains a dump of the serial bus of a [Keithley Model 2002](https://www.tek.com/en/products/keithley/digital-multimeter/2002-series). The [Keithley Model 2010](https://www.tek.com/en/products/keithley/digital-multimeter/2010-series) and [Keithley Model 2001](https://www.tek.com/en/products/keithley/digital-multimeter/2001-series) were not tested, but they are similar to the [DMM6500](https://www.tek.com/en/products/keithley/digital-multimeter/dmm6500). Do report back if you have tested the card in such a model, so that I can tick those checkboxes.
 
