@@ -34,7 +34,7 @@ A photo of a version 1.0.0 board. Note: Later revisions have a pin header instea
 The root folder contains the KiCAD files. The bill of materials can be found on the [releases](../../releases) page along with Gerber files for production.
 
 ## Installation
-The source code and installation instructions can be found [here](https://github.com/PatrickBaus/SCAN2000_Firmware). You will need a ST-Link adapter to flash the MCU.
+The source code and installation instructions can be found [here](https://github.com/PatrickBaus/SCAN2000_STM32_Firmware). You will need a ST-Link adapter to flash the MCU.
 
 ## Related Repositories
 See the following repositories for more information as these are part of the [design files](#design-files).
