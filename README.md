@@ -37,7 +37,7 @@ The root folder contains the KiCAD files. The bill of materials can be found on 
 The source code and installation instructions can be found [here](https://github.com/PatrickBaus/SCAN2000_Firmware). You will need a ST-Link adapter to flash the MCU.
 
 ## Related Repositories
-See the following repositories for more information as these are part of the [design files](#design Files).
+See the following repositories for more information as these are part of the [design files](#design-files).
 
 - [KiCad footprints](https://github.com/PatrickBaus/footprints.pretty)
 - [KiCAD 3D models](https://github.com/PatrickBaus/footprints.3dshapes)
