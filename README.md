@@ -1,9 +1,9 @@
 [![Build manufacturing files](https://github.com/PatrickBaus/SCAN2000/actions/workflows/ci.yml/badge.svg)](https://github.com/PatrickBaus/SCAN2000/actions/workflows/ci.yml)
-# Keithley SCAN2000 SSR Replacement
+# Keithley 2000-SCAN SSR Replacement
 
 This repository contains the KiCAD PCB project files for a [Keithley Model 2000-SCAN](https://download.tek.com/manual/2000SCAN-901-01_F-Jan-2014.pdf) replacement card. It uses solid-state relays instead of mechanical relays. See [below](#introduction) for a list of compatible devices. The design files can be found on the [releases](../../releases) page.
 
-![Keithley SCAN2000 board](images/pcb.png)
+![SCAN2000 board](images/pcb.png)
 
 ## Contents
 - [Introduction](#introduction)
@@ -28,7 +28,7 @@ The card was tested in a [Keithley DMM6500](https://www.tek.com/en/products/keit
 |[2002](https://www.tek.com/en/products/keithley/digital-multimeter/2002-series)|:heavy_check_mark:|Does not work. The serial clock is 2 MHz, which is too fast for the MCU.|
 
 A photo of a version 1.0.0 board. Note: Later revisions have a pin header instead of the Picoblade connector for programming and the MCU is rotated.
-![Keithley SCAN2000 board photo](images/pcb_photo.JPG)
+![SCAN2000 board photo](images/pcb_photo.JPG)
 
 ## Design Files
 The root folder contains the KiCAD files. The bill of materials can be found on the [releases](../../releases) page along with Gerber files for production.
