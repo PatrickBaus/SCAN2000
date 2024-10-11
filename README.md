@@ -14,9 +14,9 @@ This repository contains the KiCAD PCB project files for a [Keithley Model 2000-
 - [License](#license)
 
 ## Introduction
-The design is based on the SCAN2000 PCB made by [George Christidis](https://github.com/macgeorge/SCAN2000STM32). It also uses an STM32G0, but the pcb design is done in [KiCAD 8](https://www.kicad.org/) and corrects several problems like incorrect dimensions of the original design and replaces hard to obtain parts like the resistor arrays. The advantage of solid state relays over conventional relays is the almost unlimited lifetime and immunitiy to wear.
+The design is the successor of the SCAN2000 STM32 board previously released as [v1.x](https://github.com/PatrickBaus/SCAN2000/tree/1.1.1). Instead of an STM32 microcontroller it uses an [iCE40](https://www.latticesemi.com/iCE40) FPGA to emulate the shift registers found on the 10 channel [Model 2000-SCAN](https://download.tek.com/manual/2000SCAN-901-01_F-Jan-2014.pdf) card and is also capable of decoding the protcol used by the 20-channel [Model 2000-SCAN-20](https://download.tek.com/manual/2000-20-901-01C_Jul2003_Instruction.pdf). The advantage of the FPGA is that the shift registers are implemented in hardware. The protocol spoken by the 10 channnel card requires freezing 24 bits clocked in _before_ the strobe bin is triggered, similar to the positive lookahead assertion of a [regular expression](https://en.wikipedia.org/wiki/Regular_expression). This is in stark contrast to typical protocols used by microcontrollers like, for example, [SPI](https://en.wikipedia.org/wiki/Serial_Peripheral_Interface) that uses a [chip select](https://en.wikipedia.org/wiki/Chip_select) control line to announce incoming data arriving _after_ the CS signal. A more detailed analysis of the problem can be found in the [doc/serial_protocol](doc/serial_protocol) folder.
 
-The card was tested in a [Keithley DMM6500](https://www.tek.com/en/products/keithley/digital-multimeter/dmm6500) and a [Keithley Model 2002](https://www.tek.com/en/products/keithley/digital-multimeter/2002-series). The latter model is **not** supported by the card, because the serial clock to communicate with the card is clocked at 2 MHz and shared with other devices. These other devices do not use an 8-bit aligned protocol. The bus must therefore be sampled by the MCU and it is too slow for that. For more details, see the [serial_protocol](serial_protocol) folder as it contains a dump of the serial bus of a [Keithley Model 2002](https://www.tek.com/en/products/keithley/digital-multimeter/2002-series). The [Keithley Model 2010](https://www.tek.com/en/products/keithley/digital-multimeter/2010-series) and [Keithley Model 2001](https://www.tek.com/en/products/keithley/digital-multimeter/2001-series) were not tested, but they are similar to the [DMM6500](https://www.tek.com/en/products/keithley/digital-multimeter/dmm6500). Do report back if you have tested the card in such a model, so that I can tick those checkboxes.
+The card was tested in a [Keithley DMM6500](https://www.tek.com/en/products/keithley/digital-multimeter/dmm6500) and a [Keithley Model 2002](https://www.tek.com/en/products/keithley/digital-multimeter/2002-series). The [Keithley DMM6500](https://www.tek.com/en/products/keithley/digital-multimeter/dmm6500) supports both the 10 channel [Model 2000-SCAN](https://download.tek.com/manual/2000SCAN-901-01_F-Jan-2014.pdf) and the newer [Model 2000-SCAN-20](https://download.tek.com/manual/2000-20-901-01C_Jul2003_Instruction.pdf). The same goes for the [Model 2000](https://www.tek.com/en/products/keithley/digital-multimeter/keithley-2000-series-6-digit-multimeter-scanning) and Model 2000-20. The [Model 2002](https://www.tek.com/en/products/keithley/digital-multimeter/2002-series) only supports the older 10 channel cards.
 
 |DMM|Tested|Note|
 |--|--|--|
@@ -25,16 +25,15 @@ The card was tested in a [Keithley DMM6500](https://www.tek.com/en/products/keit
 |[2000-20](https://www.tek.com/en/products/keithley/digital-multimeter/keithley-2000-series-6-digit-multimeter-scanning)|:x:|Not tested, but should work.|
 |[2010](https://www.tek.com/en/products/keithley/digital-multimeter/2010-series)|:heavy_check_mark:|Works, but only 10 channels cards are supported by the firmware.|
 |[2001](https://www.tek.com/en/products/keithley/digital-multimeter/2001-series)|:x:|Not tested, but should work.|
-|[2002](https://www.tek.com/en/products/keithley/digital-multimeter/2002-series)|:heavy_check_mark:|Does not work. The serial clock is 2 MHz, which is too fast for the MCU.|
-
-A photo of a version 1.0.0 board. Note: Later revisions have a pin header instead of the Picoblade connector for programming and the MCU is rotated.
-![SCAN2000 board photo](images/pcb_photo.JPG)
+|[2002](https://www.tek.com/en/products/keithley/digital-multimeter/2002-series)|:heavy_check_mark:|Works. Only 10 channels supported.|
 
 ## Design Files
 The root folder contains the KiCAD files. The bill of materials can be found on the [releases](../../releases) page along with Gerber files for production.
 
 ## Installation
-The source code and installation instructions can be found [here](https://github.com/PatrickBaus/SCAN2000_STM32_Firmware). You will need a ST-Link adapter to flash the MCU.
+The source code for the FPGA and the installation instructions for the firmware can be found [here](https://github.com/PatrickBaus/SCAN2000_iCE40_Firmware). The FPGA source code must be written to an SPI flash chip. One way to do so is to use an USB to SPI converter with an FT232H chip.
+
+The SCAN2000 SSR board has two solder jumpers, ```JP1``` and ```JP2```. To enable only 10 channels close ```JP2``` and connect the two left pads of ```JP1``` together using a soldering iron. To enable 20 channel operation, leave ```JP2``` open and connect the two rightmost pads of ```JP1```.
 
 ## Related Repositories
 See the following repositories for more information as these are part of the [design files](#design-files).
