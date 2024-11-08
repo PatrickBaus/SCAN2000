@@ -9,6 +9,7 @@ This repository contains the KiCAD PCB project files for a [Keithley Model 2000-
 - [Introduction](#introduction)
 - [Design Files](#design-files)
 - [Installation](#installation)
+- [Accesories](#accesories)
 - [Related Repositories](#related-repositories)
 - [Versioning](#versioning)
 - [License](#license)
