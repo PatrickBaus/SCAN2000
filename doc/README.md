@@ -31,33 +31,33 @@ The decoded protocol is shown here and can also verified using the schematic sch
 title: "2000-SCAN protocol"
 ---
 packet-beta
-0: "7⮟"
-1: "8⮝"
-2: "8⮟"
-3: "9⮝"
-4: "9⮟"
+0: "7⮝"
+1: "8⮟"
+2: "8⮝"
+3: "9⮟"
+4: "9⮝"
 5: "10⮝"
 6: "10⮟"
 7: "X"
-8: "5⮟"
-9: "5⮝"
+8: "5⮝"
+9: "5⮟"
 10: "X"
-11: "4W⮝"
-12: "4W⮟"
-13: "6⮝"
-14: "6⮟"
-15: "7⮝"
-16: "1⮝"
-17: "1⮟"
-18: "2⮝"
-19: "2⮟"
-20: "3⮝"
-21: "3⮟"
-22: "4⮝"
-23: "4⮟"
+11: "4W⮟"
+12: "4W⮝"
+13: "6⮟"
+14: "6⮝"
+15: "7⮟"
+16: "1⮟"
+17: "1⮝"
+18: "2⮟"
+19: "2⮝"
+20: "3⮟"
+21: "3⮝"
+22: "4⮟"
+23: "4⮝"
 ```
 
-```⮟``` means closing the channel, ```⮝``` means opening the channel, ```X``` means do not care. The do-not-care bits have no meaning as those pins of the latches on the PCB are not connected. See pin Q8 of U101 (bit 7) and pin Q3 of U102 (bit 10).
+```⮟``` means closing the channel, ```⮝``` means opening the channel, ```X``` means do-not-care bit. The do-not-care bits have no meaning as those pins of the latches on the PCB are not connected. See pin Q8 of U101 (bit 7) and pin Q3 of U102 (bit 10).
 
 As mentioned above, once the relay configuration is sent, the DMM then sends a series of zeroes to turn off the current to the relay coils. The [Model 2002](https://www.tek.com/en/products/keithley/digital-multimeter/2002-series) waits roughly ```2.8 ms``` between the datablock blocks
 
@@ -125,7 +125,7 @@ packet-beta
 42-47: "X"
 ```
 
-For example closing CH1 is sent as two blocks of ```0x00``` ```0x00``` ```0x00``` ```0x20``` ```0x00``` ```0x00``` (bit 21 is set) and ```0x00``` ```0x00``` ```0x00``` ```0x00``` ```0x00``` ```0x00```. The second block again turns all relay coils off.
+For example closing CH1 is sent as two blocks of ```0x00``` ```0x00``` ```0x00``` ```0x20``` ```0x00``` ```0x00``` (bit 21 is set) and ```0x00``` ```0x00``` ```0x00``` ```0x00``` ```0x00``` ```0x00```. The second block turns all relay coils off as discussed above.
 
 ![Model 2000-SCAN-20 DMM6500 closing CH1, first block](images/SCAN2000-20/DMM6500-SCAN2000-20_close_CH1_part1.png) and
 
