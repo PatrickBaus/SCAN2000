@@ -1,11 +1,11 @@
-# Keithley Model 2000-SCAN serial protocol
+# Keithley Model 2000-SCAN Serial Protocol
 There are two versions of the scanner cards made by Keithley for their range of DMMs which are discussed here, the [Model 2000-SCAN](https://download.tek.com/manual/2000SCAN-901-01_F-Jan-2014.pdf) and the newer [Model 2000-SCAN-20](https://download.tek.com/manual/2000-20-901-01C_Jul2003_Instruction.pdf). Additionally there are the [Model 2001-SCAN](https://download.tek.com/manual/2001_SCAN_901_01C.pdf) and [Model 2001-TCSCAN](https://download.tek.com/manual/2001-TCSCAN-900-01A_April_2018.pdf). Both are 10 channel cards as well. The [Model 2001-SCAN](https://download.tek.com/manual/2001_SCAN_901_01C.pdf) has 8 relays and 2 SSRs for high speed multiplexing. The [Model 2001-TCSCAN](https://download.tek.com/manual/2001-TCSCAN-900-01A_April_2018.pdf) on the other hand has 9 channels and one reference junction for cold-junction compensated temperature measurements. The latter two will not be discussed here.
 
 ## Contents
 - [Introduction](#introduction)
 - [Model 2000-SCAN](#model-2000-scan)
 - [Model 2000-SCAN-20](#model-2000-scan-20)
-- [Exploring the data captures](#exploring-the-data-captures)
+- [Exploring the Data Captures](#exploring-the-data-captures)
 
 ## Introduction
 The schematics of the [Model 2000-SCAN](https://download.tek.com/manual/2000SCAN-901-01_F-Jan-2014.pdf) and the [Model 2000-SCAN-20](https://download.tek.com/manual/2000-20-901-01C_Jul2003_Instruction.pdf) cards can both be found online. Do note that the latest version of the Model 2000-SCAN manual found on the Tektronix website does not contain the schematics any more. The last revision to contain them was Revision D from April 1999. Use a search engine to find it.
@@ -67,7 +67,7 @@ while the [DMM6500](https://www.tek.com/en/products/keithley/digital-multimeter/
 
 ![Model 2000-SCAN DMM6500 timing between data blocks](images/SCAN2000/DMM6500-SCAN2000_command_interval.png)
 
-### Clock speed
+### Clock Speed
 The most striking difference between the [DMM6500](https://www.tek.com/en/products/keithley/digital-multimeter/dmm6500) and the [Model 2002](https://www.tek.com/en/products/keithley/digital-multimeter/2002-series) the is the data rate at which the signals are transferred. The clock frequency used by the [Model 2002](https://www.tek.com/en/products/keithley/digital-multimeter/2002-series) is ```2 MHz```
 
 ![Model 2000-SCAN K2002 SCLK frequency](images/SCAN2000/K2002-SCAN2000_CLK_timing.png)
@@ -135,17 +135,17 @@ The second block is sent after a delay of ```3.8 ms```.
 
 ![Model 2000-SCAN-20 DMM6500 timing between data blocks](images/SCAN2000-20/DMM6500-SCAN2000-20_command_interval.png)
 
-### Clock speed
+### Clock Speed
 The [DMM6500](https://www.tek.com/en/products/keithley/digital-multimeter/dmm6500) also clocks this bus at ```100 kHz``` like the 10-channel version.
 
 ![Model 2000-SCAN-20 DMM6500 SCLK frequency](images/SCAN2000-20/DMM6500-SCAN2000-20_CLK_timing.png)
 
 Do note, the ```CLK``` line is input channel ```D1``` and ```STROBE``` is ```D1``` in this capture.
 
-## Exploring the data captures
+## Exploring the Data Captures
 This repository not only provides screen captures, but also the raw data obtained using the [R&S RTH1004](https://www.rohde-schwarz.com/us/products/test-and-measurement/oscilloscopes/rs-scope-rider-handheld-oscilloscope_63493-156160.html). This data can be found in the [plots/](plots/) directory as [csv files](https://en.wikipedia.org/wiki/Comma-separated_values) and can be plotted using your own plotter or the example [Python Matplotlib](https://matplotlib.org/) script provided. This section shows how to install the script.
 
-### Installing dependencies
+### Installing Dependencies
 These instructions assume a Linux Bash shell and Python already installed on the system. Type or copy the following commands into a shell in the [doc/plots/](plots/) directory.
 
 ```bash
@@ -154,6 +154,7 @@ source env/bin/activate
 pip install - r requirements.txt
 ```
 
+### Running the Script
 The plot script can now be executed using the following commands
 ```bash
 source env/bin/activate
