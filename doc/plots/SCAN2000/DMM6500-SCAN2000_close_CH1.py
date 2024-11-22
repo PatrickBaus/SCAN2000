@@ -14,13 +14,13 @@ def add_clock_edges(data):
 
 plot = {
     "description": None,
-    "title": "Keithley Model 2002 Bus",
+    "title": "Keithley DMM6500 SCAN2000 close CH1",
     "show": True,
     "output_file": None,
     'crop': {
         "crop_index": "date",
-        "crop_range": [0.69e-3, 0.79e-3],  # 2nd Transmitter only
-        'crop_range': [-0.04e-3, 0.79e-3],  # All
+#        "crop_range": [0.69e-3, 0.79e-3],  # 2nd Transmitter only
+#        'crop_range': [-0.04e-3, 0.79e-3],  # All
     },
     "legend_position": "upper left",
     "crop_secondary_to_primary": True,
@@ -74,17 +74,10 @@ plot = {
                 }
             },
         },
-        "annotations": (
-          # location x, location y, text
-          {"x": 0.70625e-3, "y": -1.3, "s": "0x00", "ha": "center"},  # 2nd transmitter
-          {"x": 0.70625e-3+15e-6, "y": -1.3, "s": "0x10", "ha": "center"},  # 2nd transmitter
-          {"x": 0.70625e-3+2*15e-6, "y": -1.3, "s": "0x12", "ha": "center"},  # 2nd transmitter
-          {"x": 0.70625e-3+2*15e-6+17e-6, "y": -1.3, "s": "0xBC", "ha": "center"},  # 2nd transmitter
-        ),
     },
     "files": [
         {
-            "filename": "DMM6500-SCAN2000_close_CH1.csv",
+            "filename": "SCAN2000/DMM6500-SCAN2000_close_CH1.csv",
             "show": True,
             "parser": "generic_parser",
             "options": {

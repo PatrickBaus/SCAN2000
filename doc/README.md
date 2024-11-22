@@ -57,7 +57,7 @@ packet-beta
 23: "4⮝"
 ```
 
-```⮟``` means closing the channel, ```⮝``` means opening the channel, ```X``` means do-not-care bit. The do-not-care bits have no meaning as those pins of the latches on the PCB are not connected. See pin Q8 of U101 (bit 7) and pin Q3 of U102 (bit 10).
+```⮟``` means closing the channel, ```⮝``` means opening the channel, ```X``` means do-not-care bit. The do-not-care bits have no meaning as those pins of the latches on the PCB are not connected. See pin Q8 of U101 (bit 7) and pin Q3 of U102 (bit 10). The do-not-care bits are typically set, but this is not required by the hardware.
 
 As mentioned above, once the relay configuration is sent, the DMM then sends a series of zeroes to turn off the current to the relay coils. The [Model 2002](https://www.tek.com/en/products/keithley/digital-multimeter/2002-series) waits roughly ```2.8 ms``` between the datablock blocks
 
