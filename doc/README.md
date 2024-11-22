@@ -160,7 +160,7 @@ source env/bin/activate
 ./plotter.py <plot_file>
 ```
 
-The `source env/bin/activate` line can omitted if the virtual environment has already been activated. The ```<plot_file>``` can be any of the Python files provided in the subdirectories, for example
+The `source env/bin/activate` line can omitted if the virtual environment has already been activated. The ```<plot_file>``` can be any of the Python files provided in the [doc/plots/SCAN2000](plots/SCAN2000) or [doc/plots/SCAN2000-20](plots/SCAN2000-20) subdirectories, for example
 ```bash
 ./plotter.py SCAN2000/K2002-SCAN2000_commands_and_second_transmitter.py
 ```
