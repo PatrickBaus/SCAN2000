@@ -155,7 +155,7 @@ pip install - r requirements.txt
 ```
 
 ### Running the Script
-The plot script can now be executed using the following commands
+The plot script can now be executed using the following commands run inside the [doc/plots/](plots/) directory
 ```bash
 source env/bin/activate
 ./plotter.py <plot_file>
