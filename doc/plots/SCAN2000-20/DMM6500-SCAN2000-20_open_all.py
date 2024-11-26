@@ -7,7 +7,7 @@ phi = (5**0.5 - 1) / 2  # golden ratio
 
 plot = {
     "description": None,
-    "title": "Keithley DMM6500 SCAN2000 close CH1",
+    "title": "Keithley DMM6500 SCAN2000-20 open all",
     "show": True,
     "output_file": None,
     'crop': {
@@ -69,7 +69,7 @@ plot = {
     },
     "files": [
         {
-            "filename": "SCAN2000/data/DMM6500-SCAN2000_close_CH1.csv",
+            "filename": "SCAN2000-20/data/DMM6500-SCAN2000-20_open_all.csv",
             "show": True,
             "parser": "generic_parser",
             "options": {

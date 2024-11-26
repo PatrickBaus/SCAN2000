@@ -5,13 +5,6 @@ import seaborn as sns
 colors = sns.color_palette("colorblind")
 phi = (5**0.5 - 1) / 2  # golden ratio
 
-def add_clock_edges(data):
-    #data["CLK_edges_min"][data[data.D0.diff(periods=-1) < 0].date] = 0
-    #data["CLK_edges_max"][data[data.D0.diff(periods=-1) < 0].date] = 0
-    #data[data.D0.diff(periods=-1) < 0].date = 0
-    #data.loc[data.D0.diff(periods=-1) < 0, ['CLK_edge_min', 'CLK_edge_max']] = [0, 1]
-    print(data)
-
 plot = {
     "description": None,
     "title": "Keithley Model 2002 Bus",
@@ -84,7 +77,7 @@ plot = {
     },
     "files": [
         {
-            "filename": "K2002-SCAN2000_commands_and_second_transmitter.csv",
+            "filename": "SCAN2000/data/K2002-SCAN2000_commands_and_second_transmitter.csv",
             "show": True,
             "parser": "generic_parser",
             "options": {
